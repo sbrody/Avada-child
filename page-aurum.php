@@ -274,23 +274,6 @@ if (! defined('ABSPATH') ) {
             endif; ?>
         </div>
         <!-- .two-column -->
-
-
-        <div id="new-prod-sample" class="content-wrapper bg-dark-grey sample-form">
-            <h3>Interested in a sample of Aurum® Plus?</h3>
-            <p>Complete the form and we’ll be in touch as soon as the product is available in your region.</p>
-            <?php echo do_shortcode(
-                '[geoip_detect2_show_if not_country="GB"]
-                                        [gravityform id="10" title="false"]
-                                        [/geoip_detect2_show_if]
-                                        [geoip_detect2_show_if country="GB"]
-                                        [gravityform id="11" title="false"]
-                                        [/geoip_detect2_show_if]'
-            ); ?>
-            <p>By subscribing, you agree to receiving monthly news emails from Welland Medical. You can unsubscribe at any time by clicking the link in any of
-                our emails, calling +44 (0) 1293 615455 or emailing info@wellandmedical.com, and you can view our full privacy policy here. </p>
-        </div>
-        <!-- .sample-form -->
         <div class="share-bar">
             <h5>Share with a friend</h5>
             <?php echo do_shortcode('[getsocial app="sharing_bar"]'); ?>
