@@ -6,6 +6,7 @@
     .btn {
         padding: 6px;
         min-width: 300px;
+        display: inline-block;
         &.btn-bg-white {
             background-color: white;
             text-align: center;
@@ -136,7 +137,7 @@
     }
     @media screen and (max-width: 996px) {
         flex-wrap: wrap;
-        height: auto;
+        height: 110px;
         justify-content: center;
         .menu {
             width: 100%;

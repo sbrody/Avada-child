@@ -4,6 +4,7 @@
 .page-template-page-aurum .btn {
   padding: 6px;
   min-width: 300px;
+  display: inline-block;
 }
 .page-template-page-aurum .btn.btn-bg-white {
   background-color: white;
@@ -118,7 +119,7 @@
 @media screen and (max-width: 996px) {
   .new-product {
     flex-wrap: wrap;
-    height: auto;
+    height: 110px;
     justify-content: center;
   }
   .new-product .menu {
